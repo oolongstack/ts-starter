@@ -1,0 +1,36 @@
+{
+  "name": "@amoo/ts-starter",
+  "version": "1.0.0",
+  "description": "🌞 A minimist starter template for typescript library",
+  "type": "module",
+  "keywords": [
+    "template",
+    "starter",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/oolongstack/ts-starter",
+  "bugs": {
+    "url": "https://github.com/oolongstack/ts-starter/issues"
+  },
+  "author": "amoo <oolong.stack@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:oolongstack/ts-starter.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
