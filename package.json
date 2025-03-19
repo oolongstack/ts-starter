@@ -1,6 +1,6 @@
 {
   "name": "@amoo/ts-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🌞 A minimist starter template for typescript library",
   "type": "module",
   "keywords": [
